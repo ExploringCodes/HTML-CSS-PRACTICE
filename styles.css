@@ -1,12 +1,21 @@
-.input{
-    display:block;
-    width:400px;
+body{
+    margin:0
 }
-.image{
-    display:block;
-    width:300px;
- 
+.red {
+    background-color: red;
+    height:100px;
+
+
 }
-.main{
-    margin-top: 200px;
+
+.green{
+    background: green;
+    height:100px;
+
+}
+.blue{
+    background: blue;
+    height:100px;
+    margin-top: 50px;
+    margin-bottom:50px
 }

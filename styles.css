@@ -1,8 +1,12 @@
-body{
-    background: grey;
-    color:black;
-    font-size:40px;
-    font-weight: bold;
-    text-align:center;
-    margin-top: 50px;
+.input{
+    display:block;
+    width:400px;
+}
+.image{
+    display:block;
+    width:300px;
+ 
+}
+.main{
+    margin-top: 200px;
 }

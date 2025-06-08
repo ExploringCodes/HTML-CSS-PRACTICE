@@ -1,7 +1,12 @@
-img{
-    display:block;
-    width:200px;
-   margin-left:auto;
-   margin-right: auto;
+.card{
+    color: black;
+    background:grey;
+    width:300px;
+    margin-top: 50px;
+    margin-right:auto;
+    margin-left:auto;
 
+   padding-top:50px;
+   padding-right:50px;
+   
 }

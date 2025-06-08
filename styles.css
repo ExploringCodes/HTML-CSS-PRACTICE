@@ -1,11 +1,13 @@
 .card{
     color: black;
     background:grey;
-    width:300px;
+    width:600px;
+    font-size:35px;
     margin-top: 50px;
     margin-right:auto;
     margin-left:auto;
-
+   border: 8px solid black;
+   border-radius: 30px;
    padding-top:50px;
    padding-right:50px;
    

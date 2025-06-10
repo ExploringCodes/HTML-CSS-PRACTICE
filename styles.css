@@ -1,13 +1,20 @@
 body{
     margin:20px;
+ 
 }
 
 .my-image{
     width:150px;
+
 }
 
 .my-card{
-    border: 1px dotted blue;
+  
     padding:20px;
     display:flex;
+    justify-content: space-around;
+}
+
+.dotted-border{
+    border:2px dotted blue;
 }

@@ -1,5 +1,6 @@
 body{
     margin:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 
@@ -9,12 +10,22 @@ body{
 }
 
 .my-card{
+    width:400px;
+  
+    margin: 0px auto;
   
     padding:20px;
     display:flex;
     justify-content: space-around;
+    text-align:center;
+
+    background-color: #ddebf8;
+    color: #2b2839  ;
+    border-bottom: 6px #d8cefe solid;
 }
 
 .dotted-border{
     border:2px dotted blue;
+    
 }
+

@@ -1,31 +1,58 @@
+.hero {
+   
+    
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTV6ZWRvOHJrNTJqNGI3ZmVhYzZpN2tmdXEycHhvcjF3N3g1bTVwcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/iicDrNGWxHmDrIni6j/giphy.gif");
+   
+    text-align:center;
+    font-size: 30;
+   
+    font-weight:bold;
+    padding:0 0 80px 0;
+    
+
+}
+
 body{
-    margin:20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
- 
+    margin:0 0 0 0;
+    font-family: "Orbitron", sans-serif;
+    text-align:center;
+     color: #82a5ca;
 }
 
-.my-image{
-    width:150px;
+.my-button{
+    width:60px;
+    height:29px;
+    font-size:16px;
+    font-weight:normal;
+    padding: 6px, 12px, 6px, 12px ;
+    background-color: white;
+    border:None;
+     font-family: inherit;
+     color:#82a5ca;
+     font-weight: bold;
 
 }
 
-.my-card{
-    width:400px;
-  
-    margin: 0px auto;
-  
-    padding:20px;
-    display:flex;
-    justify-content: space-around;
+h1{
+    margin-top:10px;
+    text-shadow: 0 0  5px black;
+}
+.underline{
+    /* text-decoration: underline ; */
+    border-bottom: 4px white solid;
+}
+
+#logo{
+    width: 250px;
+
+}
+
+/* div{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
     text-align:center;
 
-    background-color: #ddebf8;
-    color: #2b2839  ;
-    border-bottom: 6px #d8cefe solid;
-}
+} */
 
-.dotted-border{
-    border:2px dotted blue;
-    
-}
 

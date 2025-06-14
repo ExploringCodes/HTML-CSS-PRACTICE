@@ -1,5 +1,9 @@
 .pricing{
     display:flex;
-    
+    justify-content: space-around;
 
+}
+
+#title{
+    text-align:center
 }

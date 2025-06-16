@@ -1,9 +1,13 @@
-.pricing{
-    display:flex;
-    justify-content: space-around;
+#photo{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
 
 }
-
-#title{
-    text-align:center
+body{
+    font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center
 }
+

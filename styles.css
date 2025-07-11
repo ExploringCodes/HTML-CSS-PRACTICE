@@ -43,10 +43,10 @@ using padding-top for margin collapse
 }
 
 .quick-view{
-    margin-top:0;
+    margin-top:5px;
     background-color: #c2d5dc;
     height:200px;
-
+    padding-top:1px;
 
 
 }
@@ -54,6 +54,7 @@ using padding-top for margin collapse
 
     display:flex;
     justify-content: space-around;
+    text-align: center;
 
 }
 
@@ -74,7 +75,7 @@ using padding-top for margin collapse
 }
 
 .intro-card{
-    margin-top:90px;
+    margin-top:30px;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -83,13 +84,16 @@ using padding-top for margin collapse
     margin-left:auto;
     margin-right:auto;
     background-color: #496c72;
+    text-align:center
 
 }
 
 #my-pic{
-    height:100px;
+    height:120px;
     width:100px;
     margin-left:2px;
+    margin-right:6px;
+    margin-top:5px;
 }
 
 #my-intro{
@@ -98,6 +102,7 @@ using padding-top for margin collapse
 }
 
 #my-description{
-    font-size:12px;
+    font-size:10px;
     font-family: monospace;
+    font-style:italic
 }

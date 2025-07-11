@@ -7,7 +7,7 @@ body{
 background-size: 100% 100%;
 background-position:center;
 position:relative;
-height:150px;
+height:200px;
 margin-bottom:0;
 display:flex;
 flex-direction: column;
@@ -79,8 +79,8 @@ using padding-top for margin collapse
     display:flex;
     justify-content: space-around;
     align-items: center;
-    width:200px;
-    height:130px;
+    width:350px;
+    height:140px;
     margin-left:auto;
     margin-right:auto;
     background-color: #496c72;
@@ -90,10 +90,10 @@ using padding-top for margin collapse
 
 #my-pic{
     height:120px;
-    width:100px;
-    margin-left:2px;
+    width:120px;
+    margin-left:5px;
     margin-right:6px;
-    margin-top:5px;
+    margin-top:10px;
 }
 
 #my-intro{

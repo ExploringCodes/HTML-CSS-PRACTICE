@@ -7,20 +7,48 @@ body{
 background-size: 100% 100%;
 background-position:center;
 position:relative;
-height:300px;
-margin-bottom:0
+height:150px;
+margin-bottom:0;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:white;
+/* padding-top:1px; */
   
 }
+
+/* so there are two ways to move h1 or p stuff inside div 
+- one using div and another using inline-block , 
+using padding-top for margin collapse
+ */
 #hero-intro{
-    display:inline;
-    background-color:green ;
-    color:white;
    
+    /* display:inline-block; */
+
+    background-color:#4e903c ;
+    padding:3px 5px;
+    border-radius:5px;
+    font-size:20px;
+   
+    
+   
+}
+
+#hero-describe{
+    background-color:#214f28;
+    padding:3px 5px;
+    border-radius: 15px;
+
 }
 
 .quick-view{
     margin-top:0;
     background-color: #c2d5dc;
+    height:200px;
+
+
+
 }
 .quick-flex{
 
@@ -30,7 +58,46 @@ margin-bottom:0
 }
 
 .quick-image{
-    width:100px;
-    height:100px;
+    width:75px;
+    height:75px;
     border-radius:50%
+}
+
+.quick-title{
+    font-size:12px;
+    font-weight: bold;
+
+}
+.quick-describe{
+    font-size:10px
+
+}
+
+.intro-card{
+    margin-top:90px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:200px;
+    height:130px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #496c72;
+
+}
+
+#my-pic{
+    height:100px;
+    width:100px;
+    margin-left:2px;
+}
+
+#my-intro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#my-description{
+    font-size:12px;
+    font-family: monospace;
 }
